@@ -18,7 +18,7 @@
 		"@sveu/actions": "^0.3.0",
 		"@sveu/browser": "^0.12.0",
 		"@sveu/extend": "^0.3.1",
-		"@sveu/shared": "^0.8.1",
+		"@sveu/shared": "^0.8.2",
 		"@typescript-eslint/eslint-plugin": "^5.54.0",
 		"@typescript-eslint/parser": "^5.54.0",
 		"@unocss/reset": "^0.50.3",
