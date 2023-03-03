@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app"
 
+// Replaced with your own config
 const config = {
 	apiKey: "AIzaSyB1ict-Hl9LOWUYodUP5PpPwYi7-K1YtoI",
 	authDomain: "svelte-u.firebaseapp.com",
