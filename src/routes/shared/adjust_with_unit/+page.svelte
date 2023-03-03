@@ -14,11 +14,19 @@
 	<br />
 
 	<label for="delta">Delta</label>
-	<input id="delta" type="number" bind:value="{delta}" />
+	<input
+		class="border border-4 mb-3"
+		id="delta"
+		type="number"
+		bind:value="{delta}" />
 	<br />
 
 	<label for="target">Target</label>
-	<input id="target" type="text" bind:value="{target}" />
+	<input
+		class="border border-4  mb-3"
+		id="target"
+		type="text"
+		bind:value="{target}" />
 	<br />
 
 	<button class="mr-5" on:click="{() => result.inc()}">Increase</button>
