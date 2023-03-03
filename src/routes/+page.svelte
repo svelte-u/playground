@@ -45,7 +45,6 @@
 		"adjust_with_unit",
 		"async_state",
 		"create_event_hook",
-		"create_singleton_promise",
 		"debounce",
 		"intervalfn",
 		"last_changed",
