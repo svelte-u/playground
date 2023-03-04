@@ -5,7 +5,7 @@ specifiers:
   '@sveltejs/adapter-auto': ^2.0.0
   '@sveltejs/kit': ^1.9.2
   '@sveu/actions': ^0.3.0
-  '@sveu/browser': ^0.12.1
+  '@sveu/browser': ^0.12.2
   '@sveu/extend': ^0.3.1
   '@sveu/shared': ^0.8.2
   '@typescript-eslint/eslint-plugin': ^5.54.0
@@ -35,7 +35,7 @@ devDependencies:
   '@sveltejs/adapter-auto': 2.0.0_@sveltejs+kit@1.9.2
   '@sveltejs/kit': 1.9.2_svelte@3.55.1+vite@4.1.4
   '@sveu/actions': 0.3.0
-  '@sveu/browser': 0.12.1
+  '@sveu/browser': 0.12.2
   '@sveu/extend': 0.3.1_opjlks7v5dzsu33ybjsc7zxoqa
   '@sveu/shared': 0.8.2
   '@typescript-eslint/eslint-plugin': 5.54.0_6mj2wypvdnknez7kws2nfdgupi
@@ -1000,12 +1000,12 @@ packages:
   /@sveu/actions/0.3.0:
     resolution: {integrity: sha512-M/FthbqV0lA4xQ/AY/6RysbcTdWZSuj0sTFEpSrR4ntnhWp2kJizsB4N0gVb1uE1fC7FhQRHi0Sufzt+X5aY7Q==}
     dependencies:
-      '@sveu/browser': 0.12.1
+      '@sveu/browser': 0.12.2
       '@sveu/shared': 0.8.2
     dev: true
 
-  /@sveu/browser/0.12.1:
-    resolution: {integrity: sha512-WlL08JY942XGffmyrawxLP0Hkm/tQTZoutZrmOFN5PGN/rA045y+bFfagziQJbilaZwGOsp06v/lG07mT0OXqw==}
+  /@sveu/browser/0.12.2:
+    resolution: {integrity: sha512-xUlFhDrUy2Yb/9EsXj8IsL9Dkyn8ouFYMV4/1bZMWc0WG11bwv4Ya33RNItl3WLUsQEfK2PZB8hy1AwSh9Zn8A==}
     dependencies:
       '@sveu/shared': 0.8.2
     dev: true
