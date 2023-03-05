@@ -4,7 +4,7 @@ specifiers:
   '@iconify/json': ^2.2.29
   '@sveltejs/adapter-auto': ^2.0.0
   '@sveltejs/kit': ^1.9.2
-  '@sveu/actions': ^0.3.0
+  '@sveu/actions': ^0.3.1
   '@sveu/browser': ^0.12.2
   '@sveu/extend': ^0.3.1
   '@sveu/shared': ^0.8.2
@@ -34,7 +34,7 @@ devDependencies:
   '@iconify/json': 2.2.29
   '@sveltejs/adapter-auto': 2.0.0_@sveltejs+kit@1.9.2
   '@sveltejs/kit': 1.9.2_svelte@3.55.1+vite@4.1.4
-  '@sveu/actions': 0.3.0
+  '@sveu/actions': 0.3.1
   '@sveu/browser': 0.12.2
   '@sveu/extend': 0.3.1_opjlks7v5dzsu33ybjsc7zxoqa
   '@sveu/shared': 0.8.2
@@ -997,8 +997,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sveu/actions/0.3.0:
-    resolution: {integrity: sha512-M/FthbqV0lA4xQ/AY/6RysbcTdWZSuj0sTFEpSrR4ntnhWp2kJizsB4N0gVb1uE1fC7FhQRHi0Sufzt+X5aY7Q==}
+  /@sveu/actions/0.3.1:
+    resolution: {integrity: sha512-hkdfQiamn5taX7Y1VmJ9mlClKTskI1O/QmI3xtlLydim0sPXiA/qMAKX8XLbdvqxHOeKn4g8eHb28O/KxPvOug==}
     dependencies:
       '@sveu/browser': 0.12.2
       '@sveu/shared': 0.8.2
