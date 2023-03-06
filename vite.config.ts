@@ -14,7 +14,7 @@ export default defineConfig({
 		Unocss({
 			extractors: [extractorSvelte],
 			presets: [presetIcons(), presetUno(), presetWebFonts({})],
-			// transformers: [transformerVariantGroup()],
+			transformers: [transformerVariantGroup()],
 		}),
 		sveltekit(),
 	],
