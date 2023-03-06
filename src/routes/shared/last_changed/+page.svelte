@@ -6,7 +6,7 @@
 		+Date.now() - 1000 * 60 * 5
 	)
 
-	const time = rtf($timestamp)
+	$: time = rtf($timestamp)
 </script>
 
 <div class="text-center">

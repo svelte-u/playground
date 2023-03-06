@@ -12,7 +12,9 @@
 	{/each}
 {/if}
 
-<button on:click="{() => open()}">Choose files</button>
+<button
+	class="rounded-lg bg-purple-600 text-white p-3"
+	on:click="{() => open()}">Choose files</button>
 
 <button type="button" disabled="{!files}" on:click="{() => reset()}">
 	Reset

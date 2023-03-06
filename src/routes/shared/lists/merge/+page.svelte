@@ -7,7 +7,10 @@
 		{ id: 3, name: "Jack" },
 	]
 
-	const other = [{ id: 2, name: "Jane Doe" }]
+	const other = [
+		{ id: 2, name: "Jane Doe" },
+		{ id: 5, name: "Jill" },
+	]
 
 	const merged = merge(list, other, (item) => item.id)
 

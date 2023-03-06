@@ -12,7 +12,7 @@
 			Current copied: <code>{value || "none"}</code>
 		</p>
 		<input class="border border-3" bind:value="{value}" type="text" />
-		<button on:click="{() => copy(value)}">
+		<button on:click="{() => copy()}">
 			{$copied ? "copied" : "copy"}
 		</button>
 	</div>
