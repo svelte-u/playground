@@ -55,6 +55,7 @@
 		"on_mount",
 		"range",
 		"rtf",
+		"sleep",
 		"slug",
 		"strftime",
 		"taggable",
