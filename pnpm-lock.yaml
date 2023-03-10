@@ -7,7 +7,7 @@ specifiers:
   '@sveu/actions': ^0.3.3
   '@sveu/browser': ^0.12.4
   '@sveu/extend': ^0.3.1
-  '@sveu/shared': ^0.8.2
+  '@sveu/shared': ^0.8.4
   '@types/web-push': ^3.3.2
   '@typescript-eslint/eslint-plugin': ^5.54.0
   '@typescript-eslint/parser': ^5.54.0
@@ -44,7 +44,7 @@ devDependencies:
   '@sveu/actions': 0.3.3
   '@sveu/browser': 0.12.4
   '@sveu/extend': 0.3.1_gzsgqghbwws7li4oqaxldafgm4
-  '@sveu/shared': 0.8.2
+  '@sveu/shared': 0.8.4
   '@types/web-push': 3.3.2
   '@typescript-eslint/eslint-plugin': 5.54.1_mlk7dnz565t663n4razh6a6v6i
   '@typescript-eslint/parser': 5.54.1_ycpbpc6yetojsgtrx3mwntkhsu
@@ -1009,13 +1009,13 @@ packages:
     resolution: {integrity: sha512-hu21U4tHQImhr4q+jMoLXMnE51XBO+AI2THvmICqgC2wsJ5LUZifnlNhCKUvvOuujDZ0fxu9oq1YJ/6TKw4nrg==}
     dependencies:
       '@sveu/browser': 0.12.4
-      '@sveu/shared': 0.8.2
+      '@sveu/shared': 0.8.4
     dev: true
 
   /@sveu/browser/0.12.4:
     resolution: {integrity: sha512-FDtymGlmLBDAgZ31rJiuvJjwbOEJ9H8NB9h2NCrlJaNUCc4EMuAlbmF55qw26kLDgsHmteUIsLDL67GWVyN9Ug==}
     dependencies:
-      '@sveu/shared': 0.8.2
+      '@sveu/shared': 0.8.4
     dev: true
 
   /@sveu/extend/0.3.1_gzsgqghbwws7li4oqaxldafgm4:
@@ -1044,7 +1044,7 @@ packages:
       qrcode:
         optional: true
     dependencies:
-      '@sveu/shared': 0.8.2
+      '@sveu/shared': 0.8.4
       async-validator: 4.2.5
       change-case: 4.1.2
       firebase: 9.17.2
@@ -1054,8 +1054,8 @@ packages:
       qrcode: 1.5.1
     dev: true
 
-  /@sveu/shared/0.8.2:
-    resolution: {integrity: sha512-Hx9SGP84B0wloKV8uUBYHsQ+iRZaJxQEdxNcqIhHszbhCIcZa2opmBDSuWPTcJ7/kkxglAnk+l+wKwqGXPC4yQ==}
+  /@sveu/shared/0.8.4:
+    resolution: {integrity: sha512-rYwdDUyAama31ZRpZFpAUlW5kEmQza0M+L8eXg2bF1h93s722A9TsYxiNMG7psGmjI7yQXyA91AmClrvwVspGA==}
     dev: true
 
   /@types/cookie/0.5.1:

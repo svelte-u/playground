@@ -19,7 +19,7 @@
 		"@sveu/actions": "^0.3.3",
 		"@sveu/browser": "^0.12.4",
 		"@sveu/extend": "^0.3.1",
-		"@sveu/shared": "^0.8.2",
+		"@sveu/shared": "^0.8.4",
 		"@types/web-push": "^3.3.2",
 		"@typescript-eslint/eslint-plugin": "^5.54.0",
 		"@typescript-eslint/parser": "^5.54.0",
