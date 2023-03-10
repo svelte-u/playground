@@ -17,7 +17,7 @@
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.9.2",
 		"@sveu/actions": "^0.3.3",
-		"@sveu/browser": "^0.12.4",
+		"@sveu/browser": "^0.12.6",
 		"@sveu/extend": "^0.3.1",
 		"@sveu/shared": "^0.8.4",
 		"@types/web-push": "^3.3.2",
