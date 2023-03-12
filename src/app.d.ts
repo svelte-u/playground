@@ -7,3 +7,10 @@ declare namespace App {
 	// interface PageData {}
 	// interface Platform {}
 }
+
+// only for this demo
+declare namespace svelteHTML {
+	interface HTMLAttributes {
+		"on:clicked"?: (event: CustomEvent<boolean>) => void
+	}
+}

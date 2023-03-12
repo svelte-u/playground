@@ -92,6 +92,7 @@
 		"broadcast_channel",
 		"clipboard",
 		"dom_visible",
+		"event_dispatcher",
 		"event_listener",
 		"eye_dropper",
 		"favicon",
