@@ -114,6 +114,7 @@
 		"resize_observer",
 		"support",
 		"useragent",
+		"vibrate",
 		"wake_lock",
 		"websocket",
 		"window_focus",
