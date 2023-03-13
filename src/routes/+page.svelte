@@ -113,6 +113,7 @@
 		"push_notification",
 		"raf_fn",
 		"resize_observer",
+		"screen_orientation",
 		"support",
 		"useragent",
 		"vibrate",

@@ -16,9 +16,9 @@
 	"python.linting.flake8Enabled": true,
 	"python.isort.args": ["--profile=black"],
 	"[python]": {
-	  "editor.codeActionsOnSave": {
-		"source.organizeImports": true
-	  }
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true
+		}
 	},
 	"windicss.sortOnSave": true,
 	"svelte.plugin.svelte.format.config.svelteStrictMode": true,
