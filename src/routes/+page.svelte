@@ -107,6 +107,7 @@
 		"mutation_observer",
 		"network",
 		"notification",
+		"performance_observer",
 		"permission",
 		"preferred_lang",
 		"push_notification",
