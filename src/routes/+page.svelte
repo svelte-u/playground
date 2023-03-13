@@ -115,6 +115,7 @@
 		"resize_observer",
 		"screen_orientation",
 		"support",
+		"url_query",
 		"useragent",
 		"vibrate",
 		"wake_lock",
