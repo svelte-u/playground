@@ -4,11 +4,11 @@
 	let entry: any[] = []
 
 	performance_observer(
-		{
-			entryTypes: ["measure", "mark", "resource", "navigation"],
-		},
 		(list) => {
 			entry = list.getEntries()
+		},
+		{
+			entryTypes: ["measure", "mark", "resource", "navigation"],
 		}
 	)
 </script>
