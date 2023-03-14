@@ -4,10 +4,10 @@ specifiers:
   '@iconify/json': ^2.2.29
   '@sveltejs/adapter-auto': ^2.0.0
   '@sveltejs/kit': ^1.9.2
-  '@sveu/actions': ^0.3.3
-  '@sveu/browser': ^0.17.1
-  '@sveu/extend': ^0.3.1
-  '@sveu/shared': ^0.8.4
+  '@sveu/actions': ^0.3.4
+  '@sveu/browser': ^0.17.2
+  '@sveu/extend': ^0.3.3
+  '@sveu/shared': ^0.9.0
   '@types/web-push': ^3.3.2
   '@typescript-eslint/eslint-plugin': ^5.54.0
   '@typescript-eslint/parser': ^5.54.0
@@ -41,10 +41,10 @@ devDependencies:
   '@iconify/json': 2.2.31
   '@sveltejs/adapter-auto': 2.0.0_@sveltejs+kit@1.10.0
   '@sveltejs/kit': 1.10.0_svelte@3.55.1+vite@4.1.4
-  '@sveu/actions': 0.3.3
-  '@sveu/browser': 0.17.1
-  '@sveu/extend': 0.3.1_gzsgqghbwws7li4oqaxldafgm4
-  '@sveu/shared': 0.8.4
+  '@sveu/actions': 0.3.4
+  '@sveu/browser': 0.17.2
+  '@sveu/extend': 0.3.3_gzsgqghbwws7li4oqaxldafgm4
+  '@sveu/shared': 0.9.0
   '@types/web-push': 3.3.2
   '@typescript-eslint/eslint-plugin': 5.54.1_mlk7dnz565t663n4razh6a6v6i
   '@typescript-eslint/parser': 5.54.1_ycpbpc6yetojsgtrx3mwntkhsu
@@ -1005,27 +1005,27 @@ packages:
       - supports-color
     dev: true
 
-  /@sveu/actions/0.3.3:
-    resolution: {integrity: sha512-hu21U4tHQImhr4q+jMoLXMnE51XBO+AI2THvmICqgC2wsJ5LUZifnlNhCKUvvOuujDZ0fxu9oq1YJ/6TKw4nrg==}
+  /@sveu/actions/0.3.4:
+    resolution: {integrity: sha512-hjPF7pevDhRssrGGX2WRRnul4wj3kmwth6qusLcLvyhizWT7YAVnoWAwljHuXsuAmmjAjCOQVzlny0e8XxhMgA==}
     dependencies:
       '@sveu/browser': 0.12.6
-      '@sveu/shared': 0.8.4
+      '@sveu/shared': 0.8.5
     dev: true
 
   /@sveu/browser/0.12.6:
     resolution: {integrity: sha512-K/r1SssXcaXDcmIwmO/Jjkn6rsMgcVRtGMS62lrnRO4Xt0v2TSs7L08AasJauhp+tOBeNW0pxzA0tsg/KqMl5g==}
     dependencies:
-      '@sveu/shared': 0.8.4
-    dev: true
-
-  /@sveu/browser/0.17.1:
-    resolution: {integrity: sha512-5UXClhXNWM3EiVBTvhFXRi2IRBypXsOdS1PfWdKERHbCWJWJ45s6YmFazqw1CWpcss46+oieD6DVImi4235HkQ==}
-    dependencies:
       '@sveu/shared': 0.8.5
     dev: true
 
-  /@sveu/extend/0.3.1_gzsgqghbwws7li4oqaxldafgm4:
-    resolution: {integrity: sha512-yCQwkTyTYXqzx/6nzHp6AHvrq6ia+KyEuDWJGuG+c3T625TzeJzBFZ2W2/OWQmue55grjunKCfSurHiOnIvabA==}
+  /@sveu/browser/0.17.2:
+    resolution: {integrity: sha512-VVs2U0Kw0QP4IWt3QppaTULCdQIk5FE7cN7U1IDRlWCPHpqWSEiH+d9Ec1JJTNbraZ2s3oqV5/ubgaNn3CpP8g==}
+    dependencies:
+      '@sveu/shared': 0.9.0
+    dev: true
+
+  /@sveu/extend/0.3.3_gzsgqghbwws7li4oqaxldafgm4:
+    resolution: {integrity: sha512-M3CqCvIYvIiGvxxNdXZAwuT6T6ZKo0A+EHlDWYnL210GJex+cAt5DMLrheWUlJguiZcF9BALKeMD9CMjRJR3Gg==}
     peerDependencies:
       async-validator: '*'
       change-case: '*'
@@ -1050,7 +1050,7 @@ packages:
       qrcode:
         optional: true
     dependencies:
-      '@sveu/shared': 0.8.4
+      '@sveu/shared': 0.9.0
       async-validator: 4.2.5
       change-case: 4.1.2
       firebase: 9.17.2
@@ -1060,12 +1060,12 @@ packages:
       qrcode: 1.5.1
     dev: true
 
-  /@sveu/shared/0.8.4:
-    resolution: {integrity: sha512-rYwdDUyAama31ZRpZFpAUlW5kEmQza0M+L8eXg2bF1h93s722A9TsYxiNMG7psGmjI7yQXyA91AmClrvwVspGA==}
-    dev: true
-
   /@sveu/shared/0.8.5:
     resolution: {integrity: sha512-RB8d7zofVf6OAjsyqaptjAQWxaJbTRYKqOhZqEJggDiZSsOxrdVENpTjjhoLDR1IRXQ4fjGM/5ePq9LKnUZDZQ==}
+    dev: true
+
+  /@sveu/shared/0.9.0:
+    resolution: {integrity: sha512-ct7myvdkP1B5GxFfAsnr9KxEUn8BWT006Y8QDTPmcxNpZGdFM+hYO6rGI1ATVglLMzaUEvDpWveFtBSXnm5u7w==}
     dev: true
 
   /@types/cookie/0.5.1:

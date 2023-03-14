@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { url_query } from "@sveu/browser"
 
-	const query = url_query<{ sveu: string }>("history", {
+	const query = url_query("history", {
 		fallback: { sveu: "awesome" },
 	})
 </script>
