@@ -1,10 +1,21 @@
 <script lang="ts">
 	import { url_query } from "@sveu/browser"
+	interface Query {
+		sveu: string
+		"sve-u"?: object
+	}
 
-	const query = url_query("history", {
+	const query = url_query<Query>("history", {
 		fallback: { sveu: "awesome" },
+		// encode: true,
 	})
+
+	$query["sve-u"] = { is: { nice: "tool" } }
 </script>
+
+<pre class="mt-5">
+{JSON.stringify($query, null, 4)}
+</pre>
 
 <div class="flex flex-col space-y-5 mt-20 items-center">
 	<ul>
