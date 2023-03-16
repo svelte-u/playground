@@ -127,7 +127,7 @@
 		"worker",
 	].sort()
 
-	const actions = ["dropzone", "el_bound", "fullscreen"].sort()
+	const actions = ["dropzone", "el_bound", "fullscreen", "snapshot"].sort()
 
 	let contents = [
 		{ name: "actions", modules: actions, show: false },
@@ -178,6 +178,7 @@
 							{#each module.submodules as submodule}
 								<li>
 									<a
+										data-sveltekit-replacestate
 										href="/{name}/{module.sub_name}/{submodule}"
 										>{change_case(
 											submodule,

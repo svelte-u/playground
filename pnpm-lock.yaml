@@ -4,8 +4,8 @@ specifiers:
   '@iconify/json': ^2.2.29
   '@sveltejs/adapter-auto': ^2.0.0
   '@sveltejs/kit': ^1.9.2
-  '@sveu/actions': ^0.3.4
-  '@sveu/browser': ^0.18.0
+  '@sveu/actions': ^0.4.1
+  '@sveu/browser': ^0.18.1
   '@sveu/extend': ^0.3.3
   '@sveu/shared': ^0.9.0
   '@types/web-push': ^3.3.2
@@ -41,8 +41,8 @@ devDependencies:
   '@iconify/json': 2.2.31
   '@sveltejs/adapter-auto': 2.0.0_@sveltejs+kit@1.10.0
   '@sveltejs/kit': 1.10.0_svelte@3.55.1+vite@4.1.4
-  '@sveu/actions': 0.3.4
-  '@sveu/browser': 0.18.0
+  '@sveu/actions': 0.4.1
+  '@sveu/browser': 0.18.1
   '@sveu/extend': 0.3.3_gzsgqghbwws7li4oqaxldafgm4
   '@sveu/shared': 0.9.0
   '@types/web-push': 3.3.2
@@ -1005,21 +1005,15 @@ packages:
       - supports-color
     dev: true
 
-  /@sveu/actions/0.3.4:
-    resolution: {integrity: sha512-hjPF7pevDhRssrGGX2WRRnul4wj3kmwth6qusLcLvyhizWT7YAVnoWAwljHuXsuAmmjAjCOQVzlny0e8XxhMgA==}
+  /@sveu/actions/0.4.1:
+    resolution: {integrity: sha512-v742rXDSXDrnM9K7tz5buJdyxoi+IEgG3+l3V48ThpQ8PMvQtOUocjDQOZlkIlYSXUh+EEsstT97YNckBwRoJw==}
     dependencies:
-      '@sveu/browser': 0.12.6
-      '@sveu/shared': 0.8.5
+      '@sveu/browser': 0.18.1
+      '@sveu/shared': 0.9.0
     dev: true
 
-  /@sveu/browser/0.12.6:
-    resolution: {integrity: sha512-K/r1SssXcaXDcmIwmO/Jjkn6rsMgcVRtGMS62lrnRO4Xt0v2TSs7L08AasJauhp+tOBeNW0pxzA0tsg/KqMl5g==}
-    dependencies:
-      '@sveu/shared': 0.8.5
-    dev: true
-
-  /@sveu/browser/0.18.0:
-    resolution: {integrity: sha512-7h3udbvQMiI4Mcco9R+R4HxGEc6cZHF/9yQkibHc4QgMZE/L8vg7mRcR++1utXkTUYljb4H2U1p04mKegP3JAw==}
+  /@sveu/browser/0.18.1:
+    resolution: {integrity: sha512-r+qK4yPAqxe5Xm9s6rl7gGudmT/I92dVc68IWoJQ2Umq3HHH0HTBKb8ca3gZ4tbRCBxN4o/7xsZglcT6cSvL6g==}
     dependencies:
       '@sveu/shared': 0.9.0
     dev: true
@@ -1058,10 +1052,6 @@ packages:
       idb-keyval: 6.2.0
       jwt-decode: 3.1.2
       qrcode: 1.5.1
-    dev: true
-
-  /@sveu/shared/0.8.5:
-    resolution: {integrity: sha512-RB8d7zofVf6OAjsyqaptjAQWxaJbTRYKqOhZqEJggDiZSsOxrdVENpTjjhoLDR1IRXQ4fjGM/5ePq9LKnUZDZQ==}
     dev: true
 
   /@sveu/shared/0.9.0:
