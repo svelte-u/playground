@@ -5,7 +5,7 @@ specifiers:
   '@sveltejs/adapter-auto': ^2.0.0
   '@sveltejs/kit': ^1.9.2
   '@sveu/actions': ^0.3.4
-  '@sveu/browser': ^0.17.3
+  '@sveu/browser': ^0.18.0
   '@sveu/extend': ^0.3.3
   '@sveu/shared': ^0.9.0
   '@types/web-push': ^3.3.2
@@ -42,7 +42,7 @@ devDependencies:
   '@sveltejs/adapter-auto': 2.0.0_@sveltejs+kit@1.10.0
   '@sveltejs/kit': 1.10.0_svelte@3.55.1+vite@4.1.4
   '@sveu/actions': 0.3.4
-  '@sveu/browser': 0.17.3
+  '@sveu/browser': 0.18.0
   '@sveu/extend': 0.3.3_gzsgqghbwws7li4oqaxldafgm4
   '@sveu/shared': 0.9.0
   '@types/web-push': 3.3.2
@@ -1018,8 +1018,8 @@ packages:
       '@sveu/shared': 0.8.5
     dev: true
 
-  /@sveu/browser/0.17.3:
-    resolution: {integrity: sha512-5XiDT7dvgz+KQ/4BdmeA5m0/HIqKRd+mKTlyYLXq9C/YwOJK+opQshXyzCj3uS7zXuCNQbt4FmWR3ifNQiHMrA==}
+  /@sveu/browser/0.18.0:
+    resolution: {integrity: sha512-7h3udbvQMiI4Mcco9R+R4HxGEc6cZHF/9yQkibHc4QgMZE/L8vg7mRcR++1utXkTUYljb4H2U1p04mKegP3JAw==}
     dependencies:
       '@sveu/shared': 0.9.0
     dev: true

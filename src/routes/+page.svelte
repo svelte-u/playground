@@ -114,6 +114,7 @@
 		"raf_fn",
 		"resize_observer",
 		"screen_orientation",
+		"storage",
 		"support",
 		"url_query",
 		"useragent",
