@@ -84,6 +84,7 @@
 		"idb_keyval",
 		"jwt",
 		"qrcode",
+		"sortable",
 	].sort()
 
 	const browser = [

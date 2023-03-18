@@ -6,8 +6,9 @@ specifiers:
   '@sveltejs/kit': ^1.9.2
   '@sveu/actions': ^0.4.1
   '@sveu/browser': ^0.18.1
-  '@sveu/extend': ^0.3.3
+  '@sveu/extend': ^0.4.0
   '@sveu/shared': ^0.9.0
+  '@types/sortablejs': ^1.15.1
   '@types/web-push': ^3.3.2
   '@typescript-eslint/eslint-plugin': ^5.54.0
   '@typescript-eslint/parser': ^5.54.0
@@ -24,6 +25,7 @@ specifiers:
   prettier: ^2.8.4
   prettier-plugin-svelte: ^2.9.0
   qrcode: ^1.5.1
+  sortablejs: ^1.15.0
   svelte: ^3.55.1
   svelte-check: ^3.0.4
   tslib: ^2.5.0
@@ -43,8 +45,9 @@ devDependencies:
   '@sveltejs/kit': 1.10.0_svelte@3.55.1+vite@4.1.4
   '@sveu/actions': 0.4.1
   '@sveu/browser': 0.18.1
-  '@sveu/extend': 0.3.3_gzsgqghbwws7li4oqaxldafgm4
+  '@sveu/extend': 0.4.0_c7qm4ms6epxppkpp4rrryiyovi
   '@sveu/shared': 0.9.0
+  '@types/sortablejs': 1.15.1
   '@types/web-push': 3.3.2
   '@typescript-eslint/eslint-plugin': 5.54.1_mlk7dnz565t663n4razh6a6v6i
   '@typescript-eslint/parser': 5.54.1_ycpbpc6yetojsgtrx3mwntkhsu
@@ -61,6 +64,7 @@ devDependencies:
   prettier: 2.8.4
   prettier-plugin-svelte: 2.9.0_jrsxveqmsx2uadbqiuq74wlc4u
   qrcode: 1.5.1
+  sortablejs: 1.15.0
   svelte: 3.55.1
   svelte-check: 3.1.0_svelte@3.55.1
   tslib: 2.5.0
@@ -1018,8 +1022,8 @@ packages:
       '@sveu/shared': 0.9.0
     dev: true
 
-  /@sveu/extend/0.3.3_gzsgqghbwws7li4oqaxldafgm4:
-    resolution: {integrity: sha512-M3CqCvIYvIiGvxxNdXZAwuT6T6ZKo0A+EHlDWYnL210GJex+cAt5DMLrheWUlJguiZcF9BALKeMD9CMjRJR3Gg==}
+  /@sveu/extend/0.4.0_c7qm4ms6epxppkpp4rrryiyovi:
+    resolution: {integrity: sha512-CsJBIjt/5UhQB4VZu7hb+AXI4WfIqKhBQTI4jEulXXBepTgHFkcYj8bKNoboK4m5025B+5aA3G7SJkPnqrWyKA==}
     peerDependencies:
       async-validator: '*'
       change-case: '*'
@@ -1028,6 +1032,7 @@ packages:
       idb-keyval: '*'
       jwt-decode: '*'
       qrcode: '*'
+      sortablejs: '*'
     peerDependenciesMeta:
       async-validator:
         optional: true
@@ -1043,6 +1048,8 @@ packages:
         optional: true
       qrcode:
         optional: true
+      sortablejs:
+        optional: true
     dependencies:
       '@sveu/shared': 0.9.0
       async-validator: 4.2.5
@@ -1052,6 +1059,7 @@ packages:
       idb-keyval: 6.2.0
       jwt-decode: 3.1.2
       qrcode: 1.5.1
+      sortablejs: 1.15.0
     dev: true
 
   /@sveu/shared/0.9.0:
@@ -1091,6 +1099,10 @@ packages:
 
   /@types/semver/7.3.13:
     resolution: {integrity: sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==}
+    dev: true
+
+  /@types/sortablejs/1.15.1:
+    resolution: {integrity: sha512-g/JwBNToh6oCTAwNS8UGVmjO7NLDKsejVhvE4x1eWiPTC3uCuNsa/TD4ssvX3du+MLiM+SHPNDuijp8y76JzLQ==}
     dev: true
 
   /@types/web-push/3.3.2:
@@ -2952,6 +2964,10 @@ packages:
       buffer-crc32: 0.2.13
       minimist: 1.2.8
       sander: 0.5.1
+    dev: true
+
+  /sortablejs/1.15.0:
+    resolution: {integrity: sha512-bv9qgVMjUMf89wAvM6AxVvS/4MX3sPeN0+agqShejLU5z5GX4C75ow1O2e5k4L6XItUyAK3gH6AxSbXrOM5e8w==}
     dev: true
 
   /source-map-js/1.0.2:
