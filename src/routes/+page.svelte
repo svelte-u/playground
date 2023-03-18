@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { change_case } from "@sveu/extend/change_case"
 	import { len, type } from "@sveu/shared"
+	import { page } from "$app/stores"
 
 	const shareds_curry = {
 		sub_name: "curry",
@@ -147,6 +148,8 @@
 		}
 		return len(fns) + submodules
 	}
+
+	console.log($page.url.search)
 </script>
 
 <div class="px-8 pt-8">
@@ -180,7 +183,8 @@
 								<li>
 									<a
 										data-sveltekit-replacestate
-										href="/{name}/{module.sub_name}/{submodule}"
+										href="/{name}/{module.sub_name}/{submodule}/{$page
+											.url.search}"
 										>{change_case(
 											submodule,
 											"capitalCase"
@@ -190,7 +194,9 @@
 						</ul>
 					{:else}
 						<li>
-							<a href="/{name}/{module}"
+							<a
+								data-sveltekit-replacestate
+								href="/{name}/{module}/{$page.url.search}"
 								>{change_case(module, "capitalCase")}</a>
 						</li>
 					{/if}
