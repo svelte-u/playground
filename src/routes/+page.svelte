@@ -130,7 +130,13 @@
 		"worker",
 	].sort()
 
-	const actions = ["dropzone", "el_bound", "fullscreen", "snapshot"].sort()
+	const actions = [
+		"dropzone",
+		"el_bound",
+		"fullscreen",
+		"snapshot",
+		"start_typing",
+	].sort()
 
 	let contents = [
 		{ name: "actions", modules: actions, show: false },
