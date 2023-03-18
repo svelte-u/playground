@@ -5,7 +5,7 @@ specifiers:
   '@sveltejs/adapter-auto': ^2.0.0
   '@sveltejs/kit': ^1.12.0
   '@sveu/actions': ^0.4.1
-  '@sveu/browser': ^0.18.1
+  '@sveu/browser': ^0.19.0
   '@sveu/extend': ^0.4.0
   '@sveu/shared': ^0.9.0
   '@types/sortablejs': ^1.15.1
@@ -44,7 +44,7 @@ devDependencies:
   '@sveltejs/adapter-auto': 2.0.0_@sveltejs+kit@1.12.0
   '@sveltejs/kit': 1.12.0_svelte@3.57.0+vite@4.2.0
   '@sveu/actions': 0.4.1
-  '@sveu/browser': 0.18.1
+  '@sveu/browser': 0.19.0
   '@sveu/extend': 0.4.0_c7qm4ms6epxppkpp4rrryiyovi
   '@sveu/shared': 0.9.0
   '@types/sortablejs': 1.15.1
@@ -1033,6 +1033,12 @@ packages:
 
   /@sveu/browser/0.18.1:
     resolution: {integrity: sha512-r+qK4yPAqxe5Xm9s6rl7gGudmT/I92dVc68IWoJQ2Umq3HHH0HTBKb8ca3gZ4tbRCBxN4o/7xsZglcT6cSvL6g==}
+    dependencies:
+      '@sveu/shared': 0.9.0
+    dev: true
+
+  /@sveu/browser/0.19.0:
+    resolution: {integrity: sha512-acOcInn68eSygZeQgJbYv0Y9cor8eR5kUxVRES5AsieDP10U9FOWitQn8eqjy4JFgf7MqHa14A909tWhirLsuw==}
     dependencies:
       '@sveu/shared': 0.9.0
     dev: true

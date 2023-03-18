@@ -109,6 +109,7 @@
 		"mutation_observer",
 		"network",
 		"notification",
+		"on_key_stroke",
 		"performance_observer",
 		"permission",
 		"preferred_lang",
