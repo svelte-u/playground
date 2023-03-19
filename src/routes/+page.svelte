@@ -128,6 +128,7 @@
 		"window_scroll",
 		"window_size",
 		"worker",
+		"base64",
 	].sort()
 
 	const actions = [
