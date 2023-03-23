@@ -7,7 +7,7 @@ specifiers:
   '@sveu/actions': ^0.5.0
   '@sveu/browser': ^0.20.0
   '@sveu/extend': ^0.4.0
-  '@sveu/shared': ^0.9.0
+  '@sveu/shared': ^0.10.0
   '@types/sortablejs': ^1.15.1
   '@types/web-push': ^3.3.2
   '@typescript-eslint/eslint-plugin': ^5.55.0
@@ -46,7 +46,7 @@ devDependencies:
   '@sveu/actions': 0.5.0
   '@sveu/browser': 0.20.0
   '@sveu/extend': 0.4.0_c7qm4ms6epxppkpp4rrryiyovi
-  '@sveu/shared': 0.9.0
+  '@sveu/shared': 0.10.0
   '@types/sortablejs': 1.15.1
   '@types/web-push': 3.3.2
   '@typescript-eslint/eslint-plugin': 5.55.0_342y7v4tc7ytrrysmit6jo4wri
@@ -1081,6 +1081,10 @@ packages:
       jwt-decode: 3.1.2
       qrcode: 1.5.1
       sortablejs: 1.15.0
+    dev: true
+
+  /@sveu/shared/0.10.0:
+    resolution: {integrity: sha512-ycQBVrC5PIuAS/oqivxCV+Oa6Om3cZ/93KBoI5QcpkAbabR4TPWFQklcv27JRxmQ8BRSNKsL6Kg+ielY17C6rw==}
     dev: true
 
   /@sveu/shared/0.9.0:

@@ -26,6 +26,7 @@
 		submodules: [
 			"cluster",
 			"count",
+			"cycle",
 			"enhance",
 			"fork",
 			"group",
