@@ -5,14 +5,14 @@ import {
 	transformerVariantGroup,
 	presetIcons,
 	presetUno,
-	extractorSvelte,
 	presetWebFonts,
 } from "unocss"
+import extractorSvelte from "@unocss/extractor-svelte"
 
 export default defineConfig({
 	plugins: [
 		Unocss({
-			extractors: [extractorSvelte],
+			extractors: [extractorSvelte()],
 			presets: [presetIcons(), presetUno(), presetWebFonts({})],
 			transformers: [transformerVariantGroup()],
 		}),

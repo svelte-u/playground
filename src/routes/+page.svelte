@@ -157,8 +157,6 @@
 		}
 		return len(fns) + submodules
 	}
-
-	console.log($page.url.search)
 </script>
 
 <div class="px-8 pt-8">

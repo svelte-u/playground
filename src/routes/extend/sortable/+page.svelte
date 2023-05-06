@@ -8,10 +8,12 @@
 		{ id: 3, name: "c" },
 	]
 
+	let _list = list
+
 	const options: Options = {
 		animation: 500,
 		onUpdate: (evt) => {
-			list = move_list(list, evt?.oldIndex ?? 0, evt?.newIndex ?? 0)
+			_list = move_list(list, evt?.oldIndex ?? 0, evt?.newIndex ?? 0)
 		},
 	}
 </script>
@@ -26,5 +28,5 @@
 	{/each}
 </ul>
 <pre class="text-center">
-	{JSON.stringify(list, null)}
+	{JSON.stringify(_list, null)}
 </pre>
